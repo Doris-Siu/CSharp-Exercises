@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+
 namespace CSharp_stopWatchExercise
 {
 	public class Exercise2stack
