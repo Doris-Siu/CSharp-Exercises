@@ -2,15 +2,24 @@
 {
     public class WorkflowEngine
 	{
-		private List<IExecute> _workflow = new List<IExecute>();
+        //private List<IExecute> _workflow = new List<IExecute>();
 
-        public void Run(IExecute obj)
+        //public void Run(IExecute obj)
+        //{
+        //    _workflow.Add(obj);
+
+        //    foreach (var activity in _workflow)
+        //    {
+        //        activity.Execute();
+
+        //    }
+        //}
+
+        public void Run(IWorkflow workflow)
 		{
-			_workflow.Add(obj);
-
-foreach (var activity in _workflow)
+			foreach (var task in workflow.GetTasks())
 			{
-				activity.Execute();
+				task.Execute();
 
 			}
 		}

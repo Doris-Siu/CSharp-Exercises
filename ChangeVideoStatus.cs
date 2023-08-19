@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CSharp_Exercises
 {
-    public class ChangeVideoStatus : IExecute
+    public class ChangeVideoStatus : ITask
 	{
 
         public void Execute()

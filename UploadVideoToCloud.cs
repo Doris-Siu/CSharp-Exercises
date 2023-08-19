@@ -1,8 +1,8 @@
 ﻿using System;
 namespace CSharp_Exercises
 {
-    public class UploadVideoToCloud : IExecute
-	{
+    public class UploadVideoToCloud : ITask
+    {
         public void Execute()
         {
 

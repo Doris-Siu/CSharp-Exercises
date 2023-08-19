@@ -1,8 +1,8 @@
 ﻿using System;
 namespace CSharp_Exercises
 {
-    public class SendMailToOwner : IExecute
-	{
+    public class SendMailToOwner : ITask
+    {
 
         public void Execute()
         {

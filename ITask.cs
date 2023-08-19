@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CSharp_Exercises
 {
-    public interface IExecute
+    public interface ITask
 	{
 		void Execute();
 	}
