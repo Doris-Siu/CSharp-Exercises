@@ -1,5 +1,5 @@
 ﻿using System;
-namespace CSharp_stopWatchExercise
+namespace CSharp_Exercises
 {
 	public class Stopwatch
 	{
